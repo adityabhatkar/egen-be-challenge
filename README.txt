@@ -42,7 +42,7 @@ Start mongoDB
 Run the com.aditya.myProject.ApplicationLoader class
 To run APIs please follow above instructions for each API
 
-Base value of weight is consumed from the application.properties file
+Value of base weight is consumed from the application.properties file
 
 	
 
