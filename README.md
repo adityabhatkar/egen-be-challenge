@@ -5,7 +5,7 @@ Following REST APIs are developed
 1. Create
 Consumes the data sent by POST from sensor-emulator
 Save the metrics
-If Overweight or Underweight found, stores the corresponding alert.
+If Overweight or Underweight found, stores the corresponding alert.\
 Execution Instruction
 run the sensor-emulator as 
 java -jar -Dbase.value=150 -Dapi.url=http://localhost:8080/create sensor-emulator-0.0.1-SNAPSHOT.jar
@@ -42,7 +42,11 @@ Start mongoDB
 Run the com.aditya.myProject.ApplicationLoader class
 To run APIs please follow above instructions for each API
 
+Implementation 
 Value of base weight is consumed from the application.properties file
+Check for under and over weight metrics is achieved using EasyRules.
+MongoDB is integrated using Morphia
+Unites cases are written for different scenarios
 
 	
 
