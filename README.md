@@ -3,11 +3,11 @@ This project provides a consumer for sensor-emulator
 Following REST APIs are developed
 
 1. Create
-Consumes the data sent by POST from sensor-emulator
-Save the metrics
-If Overweight or Underweight found, stores the corresponding alert.\
-Execution Instruction
-run the sensor-emulator as 
+Consumes the data sent by POST from sensor-emulator<br>
+Save the metrics<br>
+If Overweight or Underweight found, stores the corresponding alert.<br>
+Execution Instruction<br>
+run the sensor-emulator as<br> 
 java -jar -Dbase.value=150 -Dapi.url=http://localhost:8080/create sensor-emulator-0.0.1-SNAPSHOT.jar
 
 2. Read Metrics 
